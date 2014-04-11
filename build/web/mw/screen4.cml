@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<language>UTF-8</language>
+<page_title>Thermoscope</page_title>
+<text> </text>
+<section start="0" end="2">
+<paragraph start="0" end="2">
+<Alignment>1</Alignment>
+<content start="0" end="1">
+<component><class>org.concord.mw2d.activity.AtomContainer</class>
+<resource>screen4$0.mml</resource><menubar>false</menubar><statusbar>false</statusbar><border>none</border></component></content>
+
+</paragraph>
+</section>
+</document>
