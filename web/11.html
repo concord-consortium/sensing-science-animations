@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sensing Science</title>
+<link rel="stylesheet" href="css/default.css" />
+<script src="mw.js"></script>
+<style>
+#applet_window {
+  background: url(img/applets-bgs/11.jpg) no-repeat;
+  }
+</style>
+</head>
+<body>
+  <div id="page-container">
+    <div id="stage">
+      <div id="video">
+        <video id="video-3" autoplay>
+          <source src="video/activity/11.mp4" type="video/mp4"></source>
+          <source src="video/activity/11.webm" type="video/webm"></source>
+        </video>
+      </div><!-- end #video -->
+      <div id="applet_window">
+        <applet id="applet1" archive="mwapplet.jar"
+        code="org.concord.modeler.MwApplet" width="800" height="800">
+          <param name="script" value="page:0:import mw/screen3.cml" />
+          <param name="permissions" value="all-permissions" />
+          <param name="MAYSCRIPT" value="true" />
+        </applet>
+        <br>
+        <div style="visibility: hidden">
+          <form>
+            <input id="run_button" type="button" value="Run"
+            onclick="runScript('applet1', 'mw2d:1:run')">
+          </form>
+        </div>
+      </div><!-- end #applet_window -->
+      <div class="speedometer" id="red-speedometer">
+        <div class="speedometer-arrow" id="red-speedometer-arrow"></div>
+      </div>
+      <div class="speedometer" id="blue-speedometer">
+        <div class="speedometer-arrow" id="blue-speedometer-arrow"></div>
+      </div>
+    </div><!-- end #stage -->
+    <div id="controls">
+      <div id="text">
+        <p>What do you think is happening?</p>
+      </div>
+      <a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
+      <div id="record-controls">
+        <a href="#" id="record" title="Record audio" onclick="return false;">record audio</a>
+        <a href="#" id="stop" title="Stop recording audio" onclick="return false;">stop recording audio</a>
+        <a href="#" id="play" title="Play recorded audio" onclick="return false;">play recorded audio</a>
+      </div>
+      <a href="10.html" id="left" title="Go backward one page">go back</a>
+      <a href="12.html" id="right" title="Go forward one page">continue</a>
+    </div><!-- /#controls -->
+  </div><!-- end #page-container -->
+  <audio id="audio1" src="audio/11.mp3" preload="auto" />
+  <script type="application/dart" src="screen3.dart"></script>
+  <script src="packages/browser/dart.js"></script>
+</body>
+</html>

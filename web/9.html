@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Land of Bump</title>
+<link rel="stylesheet" href="css/default.css" />
+</head>
+<body>
+<div id="page-container">
+  <div id="stage">
+    <video id="video1" poster="img/story/7.jpg" autoplay loop onclick="document.getElementById('video1').play(); return false;">
+      <source src="video/story/7.mp4" type="video/mp4" />
+      <source src="video/story/7.webm" type="video/webm" />
+    </video>
+  </div><!-- /#stage -->
+  <div id="controls">
+	<div id="text">
+	  <p>The Land of Bump is buzzing with excitement because the Annual Bump Dance Festival is about to begin!</p>
+	</div>
+	<a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
+	<div id="record-controls">
+	  <a href="#" id="record" title="Record audio" onclick="return false;">record audio</a>
+	  <a href="#" id="stop" title="Stop recording audio" onclick="return false;">stop recording audio</a>
+	  <a href="#" id="play" title="Play recorded audio" onclick="return false;">play recorded audio</a>
+	</div>
+	<a href="8.html" id="left" title="Go backward one page">go back</a>
+	<a href="10.html" id="right" title="Go forward one page">continue</a>
+  </div><!-- /#controls -->
+</div><!-- /#page-container -->
+<audio id="audio1" src="audio/9.mp3" preload="auto" />
+</body>
+</html>
