@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1396987429230</long>
+     <long>1396987435894</long>
     </object>
    </void>
    <void method="put">
@@ -379,11 +379,11 @@
    </void>
    <void method="put">
     <string>codebase</string>
-    <string>C:\Users\qxie\git\sensing-science-animation\web\mw</string>
+    <string>C:\Users\qxie\git\sensing-science-animations\web\mw</string>
    </void>
    <void method="put">
     <string>url</string>
-    <string>C:\Users\qxie\git\sensing-science-animation\web\mw\screen5$0.mml</string>
+    <string>C:\Users\qxie\git\sensing-science-animations\web\mw\screen5$0.mml</string>
    </void>
   </void>
   <void property="quantumRule">
@@ -1783,12 +1783,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-9.41926802555633E-5</double>
-  </void>
-  <void property="vy">
-   <double>0.021646113180787248</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -1818,12 +1812,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.007395522568251304</double>
-  </void>
-  <void property="vy">
-   <double>-0.018399482576230173</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1855,12 +1843,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.011596758871587926</double>
-  </void>
-  <void property="vy">
-   <double>0.002213442961855366</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -1890,12 +1872,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.00961270643601753</double>
-  </void>
-  <void property="vy">
-   <double>0.0031542383900649233</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1927,12 +1903,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.03170893118894191</double>
-  </void>
-  <void property="vy">
-   <double>-0.0027142854963179324</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -1962,12 +1932,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.022403857026171637</double>
-  </void>
-  <void property="vy">
-   <double>-0.0015634036014620168</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1999,12 +1963,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.005028507493166188</double>
-  </void>
-  <void property="vy">
-   <double>0.004887553581345117</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2034,12 +1992,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.007688988165820677</double>
-  </void>
-  <void property="vy">
-   <double>-0.009731033131979035</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2071,12 +2023,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.01382798843793436</double>
-  </void>
-  <void property="vy">
-   <double>-0.015477630960584994</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2106,12 +2052,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.0017601139571550174</double>
-  </void>
-  <void property="vy">
-   <double>0.007400095203172884</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2143,12 +2083,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.012583555047448859</double>
-  </void>
-  <void property="vy">
-   <double>0.014102019118532927</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2178,12 +2112,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.002149026048161329</double>
-  </void>
-  <void property="vy">
-   <double>-0.007342792889813758</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2215,12 +2143,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.006682803773576991</double>
-  </void>
-  <void property="vy">
-   <double>0.0029387275066846373</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2250,12 +2172,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.0253062761648473</double>
-  </void>
-  <void property="vy">
-   <double>0.010505468471809396</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2320,12 +2236,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.007395522546424134</double>
-  </void>
-  <void property="vy">
-   <double>-0.018399482538249773</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2355,12 +2265,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.011596759084041173</double>
-  </void>
-  <void property="vy">
-   <double>0.0022134429070114984</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2392,12 +2296,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.009612706266080446</double>
-  </void>
-  <void property="vy">
-   <double>0.0031542384528395126</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2427,12 +2325,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.03170893114385278</double>
-  </void>
-  <void property="vy">
-   <double>-0.0027142856127961488</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2464,12 +2356,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.02240385722370258</double>
-  </void>
-  <void property="vy">
-   <double>-0.001563404038174588</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2499,12 +2385,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.005028507800921196</double>
-  </void>
-  <void property="vy">
-   <double>0.004887553225948933</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2536,12 +2416,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.007688988266801213</double>
-  </void>
-  <void property="vy">
-   <double>-0.009731033334176397</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2571,12 +2445,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.01382798842284568</double>
-  </void>
-  <void property="vy">
-   <double>-0.015477630874179374</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2608,12 +2476,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.0017601140450671207</double>
-  </void>
-  <void property="vy">
-   <double>0.007400095413026102</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2643,12 +2505,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.01258355520338241</double>
-  </void>
-  <void property="vy">
-   <double>0.014102019179601424</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -2680,12 +2536,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.0021490258783398598</double>
-  </void>
-  <void property="vy">
-   <double>-0.00734279287993014</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2716,12 +2566,6 @@ endmouse:pressed;</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.006682803930668089</double>
-  </void>
-  <void property="vy">
-   <double>0.0029387275361216787</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -2751,12 +2595,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.025306276214437262</double>
-  </void>
-  <void property="vy">
-   <double>0.010505468703388293</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -4296,12 +4134,6 @@ endmouse:pressed;</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-9.41926802555633E-5</double>
-  </void>
-  <void property="vy">
-   <double>0.021646113180787248</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
