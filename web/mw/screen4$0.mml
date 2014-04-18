@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1397833843306</long>
+     <long>1397834986415</long>
     </object>
    </void>
    <void method="put">
@@ -375,7 +375,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>121490</long>
+    <long>124162</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -1463,7 +1463,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1482,12 +1482,6 @@ set %right_temperature temperature(1);</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.03632602836598756</double>
-  </void>
-  <void property="vy">
-   <double>0.003032809255810259</double>
-  </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
   <void property="ID">
@@ -1499,7 +1493,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1535,7 +1529,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1571,7 +1565,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1607,7 +1601,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1643,7 +1637,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1679,7 +1673,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1715,7 +1709,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1751,7 +1745,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1787,7 +1781,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1823,7 +1817,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1859,7 +1853,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1895,7 +1889,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1931,7 +1925,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -1967,7 +1961,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -2006,7 +2000,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -2024,12 +2018,6 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.016472190366739137</double>
-  </void>
-  <void property="vy">
-   <double>0.05494192618246186</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3377,7 +3365,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -3419,7 +3407,7 @@ set %right_temperature temperature(1);</string>
   <void property="restraint">
    <object class="org.concord.mw2d.models.PointRestraint">
     <void property="k">
-     <double>0.10000000149011612</double>
+     <double>1.0</double>
     </void>
     <void property="x0">
      <double>302.0</double>
@@ -3437,12 +3425,6 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.02068250668781503</double>
-  </void>
-  <void property="vy">
-   <double>-0.0041630344119000335</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">

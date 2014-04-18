@@ -1,6 +1,8 @@
 import 'dart:html';
 import 'dart:math';
 
+const int MAX_TEMPERATURE = 8000;
+
 final HtmlElement runButton = querySelector("#run_button");
 final HtmlElement getLeftTemperatureButton = querySelector("#get_left_temperature");
 final VideoElement video = querySelector("#video-1");
@@ -11,7 +13,8 @@ final HtmlElement leftTemperatureText = querySelector("#left_temperature");
 
 double leftTemperature;
 double angle;
-const int _MAX_TEMPERATURE = 8000;
+double _sum = 0.0;
+int _count = 0;
 
 void main() {
 
@@ -27,7 +30,9 @@ void _loop(num delta) {
   // since we cannot directly communicate with Java from Dart, we are relying on JavaScript to do the job
   getLeftTemperatureButton.click();
   leftTemperature = double.parse(leftTemperatureText.innerHtml);
-  angle = 180.0 * leftTemperature / _MAX_TEMPERATURE - 90.0;
+  _sum += leftTemperature;
+  _count++;
+  angle = 180.0 * _sum / (MAX_TEMPERATURE * _count) - 90.0;
   angle = min(90.0, angle);
   angle = max(-90.0, angle);
   // print("${leftTemperature/_MAX_TEMPERATURE} ${angle}");
