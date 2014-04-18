@@ -6,6 +6,12 @@
 <title>Sensing Science</title>
 <link rel="stylesheet" href="css/default.css" />
 <script src="mw.js"></script>
+<script type="text/javascript"> 
+  function getRightTemperature() {
+    var data = runScript("applet1", "mw2d:1:get %right_temperature");
+    document.getElementById("right_temperature").innerHTML = data;
+  }
+</script>
 <style>
 #applet_window {
   background: url(img/applet-bgs/8.jpg) no-repeat;
@@ -31,9 +37,10 @@
       </applet>
       <br>
       <div style="visibility: hidden">
+        <div id="right_temperature"></div>
         <form>
-          <input id="run_button" type="button" value="Run"
-            onclick="runScript('applet1', 'mw2d:1:run')">
+          <input id="run_button" type="button" value="Run" onclick="runScript('applet1', 'mw2d:1:run')"/>
+          <input id="get_right_temperature" type="button" value="Get Right Temperature" onclick="getRightTemperature()"/>
         </form>
       </div>
           </div><!-- end #vapplet_window -->

@@ -6,10 +6,16 @@
 <title>Sensing Science</title>
 <link rel="stylesheet" href="css/default.css" />
 <script src="mw.js"></script>
+<script type="text/javascript"> 
+  function getLeftTemperature() {
+  	var data = runScript("applet1", "mw2d:1:get %left_temperature");
+    document.getElementById("left_temperature").innerHTML = data;
+  }
+</script>
 <style>
 #applet_window {
   background: url(img/applet-bgs/7.jpg) no-repeat;
-  }
+}
 </style>
 </head>
 <body>
@@ -20,43 +26,54 @@
           <source src="video/activity/7.mp4" type="video/mp4"></source>
           <source src="video/activity/7.webm" type="video/webm"></source>
         </video>
-      </div><!-- end #video -->
+      </div>
+      <!-- end #video -->
       <div id="applet_window">
         <applet id="applet1" archive="mwapplet.jar"
-        code="org.concord.modeler.MwApplet" width="800" height="800">
+          code="org.concord.modeler.MwApplet" width="800" height="800">
           <param name="script" value="page:0:import mw/screen1.cml" />
           <param name="permissions" value="all-permissions" />
           <param name="MAYSCRIPT" value="true" />
         </applet>
         <br>
         <div style="visibility: hidden">
+          <div id="left_temperature"></div>
           <form>
-            <input id="run_button" type="button" value="Run"
-            onclick="runScript('applet1', 'mw2d:1:run')">
+            <input id="run_button" type="button" value="Run" onclick="runScript('applet1', 'mw2d:1:run')"/> 
+            <input id="get_left_temperature" type="button" value="Get Left Temperature" onclick="getLeftTemperature()"/>
           </form>
         </div>
-      </div><!-- end #vapplet_window -->
+      </div>
+      <!-- end #vapplet_window -->
       <div class="speedometer" id="red-speedometer">
         <div class="speedometer-arrow" id="red-speedometer-arrow"></div>
       </div>
       <div class="speedometer" id="blue-speedometer">
         <div class="speedometer-arrow" id="blue-speedometer-arrow"></div>
       </div>
-    </div><!-- end #stage -->
+    </div>
+    <!-- end #stage -->
     <div id="controls">
       <div id="text">
         <p>What do you think is happening?</p>
       </div>
-      <a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
+      <a href="#" id="audio" title="Play audio"
+        onclick="document.getElementById('audio1').play(); return false;">play
+        audio</a>
       <div id="record-controls">
-        <a href="#" id="record" title="Record audio" onclick="return false;">record audio</a>
-        <a href="#" id="stop" title="Stop recording audio" onclick="return false;">stop recording audio</a>
-        <a href="#" id="play" title="Play recorded audio" onclick="return false;">play recorded audio</a>
+        <a href="#" id="record" title="Record audio"
+          onclick="return false;">record audio</a> <a href="#" id="stop"
+          title="Stop recording audio" onclick="return false;">stop
+          recording audio</a> <a href="#" id="play"
+          title="Play recorded audio" onclick="return false;">play
+          recorded audio</a>
       </div>
-      <a href="6.html" id="left" title="Go back one page">go back</a>
-      <a href="8.html" id="right" title="Go forward one page">continue</a>
-    </div><!-- /#controls -->
-  </div><!-- end #page-container -->
+      <a href="6.html" id="left" title="Go back one page">go back</a> <a
+        href="8.html" id="right" title="Go forward one page">continue</a>
+    </div>
+    <!-- /#controls -->
+  </div>
+  <!-- end #page-container -->
   <audio id="audio1" src="audio/7.mp3" preload="auto" />
   <script type="application/dart" src="screen1.dart"></script>
   <script src="packages/browser/dart.js"></script>

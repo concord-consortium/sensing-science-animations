@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1397217663453</long>
+     <long>1397217709093</long>
     </object>
    </void>
    <void method="put">
@@ -375,36 +375,41 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>95108</long>
+    <long>77983</long>
    </void>
    <void method="put">
     <string>codebase</string>
-    <string>C:\Users\qxie\git\sensing-science-animation\web\mw</string>
+    <string>C:\Users\qxie\git\sensing-science-animations\web\mw</string>
    </void>
    <void method="put">
     <string>url</string>
-    <string>C:\Users\qxie\git\sensing-science-animation\web\mw\screen2$0.mml</string>
+    <string>C:\Users\qxie\git\sensing-science-animations\web\mw\screen2$0.mml</string>
    </void>
   </void>
   <void property="quantumRule">
    <object class="org.concord.mw2d.models.QuantumRule"/>
   </void>
   <void property="script">
-   <string>define %running 0;
-
-//run;
-
-beginmouse:pressed;
-
-  if(%running == 0);
-    //run;
-    set %running 1;
-  else;
-    //stop;
-    set %running 0;
-  endif;
-
-endmouse:pressed;</string>
+   <string>define %right_temperature 0;
+set %right_temperature temperature(1);</string>
+  </void>
+  <void property="tasks">
+   <void method="add">
+    <object class="org.concord.mw2d.models.TaskAttributes">
+     <void property="description">
+      <string></string>
+     </void>
+     <void property="interval">
+      <int>50</int>
+     </void>
+     <void property="name">
+      <string>TEMP</string>
+     </void>
+     <void property="script">
+      <string>set %right_temperature temperature(1);</string>
+     </void>
+    </object>
+   </void>
   </void>
   <void property="universe">
    <object class="org.concord.mw2d.models.Universe"/>

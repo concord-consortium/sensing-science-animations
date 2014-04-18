@@ -1,35 +1,42 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
-blockquote,q{quotes:none;}
-blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
-table{border-collapse:collapse;border-spacing:0;}
-html,body{height:100%;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+  {
+  display: block;
+}
+
+blockquote,q {
+  quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,body {
+  height: 100%;
+}
+
 body {
   background: #f7f2ec;
   color: #3f3f3f;
   font: 100% Verdana, Arial, Helvetica, sans-serif;
   line-height: 1;
-  }
+}
 
 #page-container {
   height: auto;
@@ -37,18 +44,21 @@ body {
   min-height: 43.75rem;
   position: relative;
   width: 78.125rem;
-  }
+}
+
 #stage {
   height: 37.5rem;
   margin: 0 auto 1rem;
   position: relative;
   width: 100%;
-  }
-  #stage img, #stage video {
-    border: none;
-    height: 100%;
-    width: 100%;
-    }
+}
+
+#stage img,#stage video {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
 #video {
   height: 600px;
   left: 50%;
@@ -58,7 +68,8 @@ body {
   visibility: visible;
   width: 1250px;
   z-index: 1;
-  }
+}
+
 #applet_window {
   height: 600px;
   left: 50%;
@@ -68,13 +79,15 @@ body {
   visibility: hidden;
   width: 1250px;
   z-index: 10;
-  }
+}
+
 #applet_window applet {
   display: block;
   height: 600px;
   margin: 0 auto;
   width: 600px;
-  }
+}
+
 .speedometer {
   background: url(../img/speedometer/bg.png) no-repeat;
   height: 122px;
@@ -82,22 +95,26 @@ body {
   top: 50px;
   width: 175px;
   z-index: 100;
-  }
-  .speedometer-arrow {
-    background: url(../img/speedometer/arrow.png) no-repeat;
-    bottom: 36px;
-    height: 73px;
-    left: 50%;
-    margin-left: -11px;
-    position: absolute;
-    width: 20px;
-    }
+}
+
+.speedometer-arrow {
+  background: url(../img/speedometer/arrow.png) no-repeat;
+  bottom: 38px;
+  height: 73px;
+  left: 50%;
+  margin-left: -11px;
+  position: absolute;
+  width: 20px;
+}
+
 #red-speedometer {
   left: 50px;
-  }
+}
+
 #blue-speedometer {
   right: 50px;
-  }
+}
+
 #controls {
   background: #f7f2ec;
   color: #506c94;
@@ -105,137 +122,153 @@ body {
   min-height: 7.188rem;
   position: relative;
   width: 100%;
-  }
-  #text {
-    font-size: 1.275rem;
-	height: auto;
-    left: 25%;
-    line-height: 140%;
-	padding: 0 1%;
-    position: absolute;
-    text-align: center;
-    width: 48%;
-    }
-  #left {
-    background: url(../img/controls/left-arrow-enabled.jpg) left center no-repeat;
-    display: block;
-    height: auto;
-    left: 1%;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 100%;
-    top: 0;
-    white-space: nowrap;
-    width: 4%;
-    }
-  #left.disabled {
-    background: url(../img/controls/left-arrow-disabled.jpg) left center no-repeat;
-    }
-  #right {
-    background: url(../img/controls/right-arrow-enabled.jpg) right center no-repeat;
-    display: block;
-    height: auto;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-    right: 1%;
-    text-indent: 100%;
-    top: 0;
-    white-space: nowrap;
-    width: 4%;
-    }
-  #right.disabled {
-    background: url(../img/controls/right-arrow-disabled.jpg) right center no-repeat;
-    }
-  #audio {
-    background: url(../img/controls/audio.png) center center no-repeat;
-    display: block;
-    height: auto;
-    left: 5%;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 100%;
-    top: 0;
-    white-space: nowrap;
-    width: 20%;
-    }
-  #record-controls {
-    display: block;
-    height: auto;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-	right: 5%;
-    top: 0;
-    white-space: nowrap;
-    width: 20%;
-    }
-  #record {
-    background: url(../img/controls/record.png) right center no-repeat;
-    display: block;
-    height: auto;
-    left: 0;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 100%;
-    top: 0;
-    white-space: nowrap;
-    width: 3.563rem;
-    }
-  #stop {
-    background: url(../img/controls/stop.png) right center no-repeat;
-    display: block;
-    height: auto;
-    left: 4.008rem;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 100%;
-    top: 0;
-    white-space: nowrap;
-    width: 3.25rem;
-    }
-  #play {
-    background: url(../img/controls/play.png) right center no-repeat;
-    display: block;
-    height: auto;
-    left: 7.838rem;
-    min-height: 4.25rem;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 100%;
-    top: 0;
-    white-space: nowrap;
-    width: 3.25rem;
-    }
+}
 
-@media only screen and (device-width: 768px) and (orientation: portrait) {
+#text {
+  font-size: 1.275rem;
+  height: auto;
+  left: 25%;
+  line-height: 140%;
+  padding: 0 1%;
+  position: absolute;
+  text-align: center;
+  width: 48%;
+}
+
+#left {
+  background: url(../img/controls/left-arrow-enabled.jpg) left center
+    no-repeat;
+  display: block;
+  height: auto;
+  left: 1%;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 4%;
+}
+
+#left.disabled {
+  background: url(../img/controls/left-arrow-disabled.jpg) left center
+    no-repeat;
+}
+
+#right {
+  background: url(../img/controls/right-arrow-enabled.jpg) right center
+    no-repeat;
+  display: block;
+  height: auto;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  right: 1%;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 4%;
+}
+
+#right.disabled {
+  background: url(../img/controls/right-arrow-disabled.jpg) right center
+    no-repeat;
+}
+
+#audio {
+  background: url(../img/controls/audio.png) center center no-repeat;
+  display: block;
+  height: auto;
+  left: 5%;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 20%;
+}
+
+#record-controls {
+  display: block;
+  height: auto;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  right: 5%;
+  top: 0;
+  white-space: nowrap;
+  width: 20%;
+}
+
+#record {
+  background: url(../img/controls/record.png) right center no-repeat;
+  display: block;
+  height: auto;
+  left: 0;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 3.563rem;
+}
+
+#stop {
+  background: url(../img/controls/stop.png) right center no-repeat;
+  display: block;
+  height: auto;
+  left: 4.008rem;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 3.25rem;
+}
+
+#play {
+  background: url(../img/controls/play.png) right center no-repeat;
+  display: block;
+  height: auto;
+  left: 7.838rem;
+  min-height: 4.25rem;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 3.25rem;
+}
+
+@media only screen and (device-width: 768px) and (orientation: portrait)
+  {
   /*iPad portrait orientation styles */
   #page-container {
     min-height: 38.3rem;
     width: 61.25rem;
-    }
+  }
   #stage {
     height: 29.4rem;
-	}
+  }
   #controls {
     min-height: 5.635392rem;
-	}
+  }
 }
 
-@media only screen and (device-width: 768px) and (orientation: landscape) {
+@media only screen and (device-width: 768px) and (orientation:
+  landscape) {
   /*iPad landscape orientation styles */
   #page-container {
     min-height: 40.84rem;
     width: 62rem;
-    }
+  }
   #stage {
     height: 29.76rem;
-	}
+  }
   #controls {
     min-height: 5.7043968rem;
-	}
+  }
 }

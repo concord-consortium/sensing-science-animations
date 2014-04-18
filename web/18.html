@@ -6,6 +6,16 @@
 <title>Sensing Science</title>
 <link rel="stylesheet" href="css/default.css" />
 <script src="mw.js"></script>
+<script type="text/javascript"> 
+  function getLeftTemperature() {
+    var data = runScript("applet1", "mw2d:1:get %left_temperature");
+    document.getElementById("left_temperature").innerHTML = data;
+  }
+  function getRightTemperature() {
+    var data = runScript("applet1", "mw2d:1:get %right_temperature");
+    document.getElementById("right_temperature").innerHTML = data;
+  }
+</script>
 <style>
 #applet_window {
   background: url(img/applet-bgs/18.jpg) no-repeat;
@@ -22,17 +32,19 @@
       </video>
     </div><!-- end #video -->
     <div id="applet_window">
-      <applet id="applet1" archive="mwapplet.jar"
-        code="org.concord.modeler.MwApplet" width="800" height="800">
+      <applet id="applet1" archive="mwapplet.jar" code="org.concord.modeler.MwApplet" width="800" height="800">
         <param name="script" value="page:0:import mw/screen5.cml" />
         <param name="permissions" value="all-permissions" />
         <param name="MAYSCRIPT" value="true" />
       </applet>
       <br>
       <div style="visibility: hidden">
+        <div id="left_temperature"></div>
+        <div id="right_temperature"></div>
         <form>
-          <input id="run_button" type="button" value="Run"
-            onclick="runScript('applet1', 'mw2d:1:run')">
+          <input id="run_button" type="button" value="Run" onclick="runScript('applet1', 'mw2d:1:run')">
+          <input id="get_left_temperature" type="button" value="Get Left Temperature" onclick="getLeftTemperature()"/>
+          <input id="get_right_temperature" type="button" value="Get Right Temperature" onclick="getRightTemperature()"/>
         </form>
       </div>
     </div><!-- end #applet_window -->
