@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1397834986415</long>
+     <long>1397952480755</long>
     </object>
    </void>
    <void method="put">
@@ -375,7 +375,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>124162</long>
+    <long>122236</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -1513,10 +1513,10 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>-0.024915513650985377</double>
+   <double>-0.0</double>
   </void>
   <void property="vy">
-   <double>0.013597233014872194</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1549,10 +1549,7 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>-0.03343622250720172</double>
-  </void>
-  <void property="vy">
-   <double>-0.006518851246753304</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1583,12 +1580,6 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.01229562924417792</double>
-  </void>
-  <void property="vy">
-   <double>0.03940935847689097</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1621,10 +1612,7 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>-0.016712521798380977</double>
-  </void>
-  <void property="vy">
-   <double>0.025287237267933523</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1656,11 +1644,8 @@ set %right_temperature temperature(1);</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.007130491927491088</double>
-  </void>
   <void property="vy">
-   <double>0.043345777924226545</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1693,10 +1678,7 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>-0.008648959095831025</double>
-  </void>
-  <void property="vy">
-   <double>-0.016644983459695943</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1728,11 +1710,8 @@ set %right_temperature temperature(1);</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>0.011344162671636451</double>
-  </void>
   <void property="vy">
-   <double>-0.01727479130502099</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1763,12 +1742,6 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.03197642670625949</double>
-  </void>
-  <void property="vy">
-   <double>0.004743761132729087</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1801,10 +1774,7 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>0.07153581640262267</double>
-  </void>
-  <void property="vy">
-   <double>0.03225552368152609</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1835,12 +1805,6 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>0.02151433350578135</double>
-  </void>
-  <void property="vy">
-   <double>-0.016345382772539406</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1873,10 +1837,10 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>0.030542875485089716</double>
+   <double>-0.0</double>
   </void>
   <void property="vy">
-   <double>-0.025166513547446926</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1908,11 +1872,8 @@ set %right_temperature temperature(1);</string>
   <void property="visible">
    <boolean>false</boolean>
   </void>
-  <void property="vx">
-   <double>-0.05273892881270659</double>
-  </void>
   <void property="vy">
-   <double>-0.0067482478716508545</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1945,10 +1906,10 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>0.042118037290775935</double>
+   <double>-0.0</double>
   </void>
   <void property="vy">
-   <double>0.026503851976951234</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -1979,12 +1940,6 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="visible">
    <boolean>false</boolean>
-  </void>
-  <void property="vx">
-   <double>-0.011982289418845585</double>
-  </void>
-  <void property="vy">
-   <double>-0.008063400214812482</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3385,10 +3340,10 @@ set %right_temperature temperature(1);</string>
    <boolean>false</boolean>
   </void>
   <void property="vx">
-   <double>0.049295623477239314</double>
+   <double>-0.0</double>
   </void>
   <void property="vy">
-   <double>0.0023055992827311117</double>
+   <double>-0.0</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3441,10 +3396,10 @@ set %right_temperature temperature(1);</string>
    <double>77.0</double>
   </void>
   <void property="vx">
-   <double>-0.14126716825089652</double>
+   <double>-0.17502760467281908</double>
   </void>
   <void property="vy">
-   <double>0.03411141040294102</double>
+   <double>0.1303901313827267</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3461,10 +3416,10 @@ set %right_temperature temperature(1);</string>
    <double>135.0</double>
   </void>
   <void property="vx">
-   <double>0.13137690542922487</double>
+   <double>-0.05763727208701295</double>
   </void>
   <void property="vy">
-   <double>0.11601771420001607</double>
+   <double>0.010147780734088587</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3481,10 +3436,10 @@ set %right_temperature temperature(1);</string>
    <double>148.0</double>
   </void>
   <void property="vx">
-   <double>0.12052015208939618</double>
+   <double>0.07431749289815144</double>
   </void>
   <void property="vy">
-   <double>-0.028894532351694067</double>
+   <double>-0.07775215581554322</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3501,10 +3456,10 @@ set %right_temperature temperature(1);</string>
    <double>227.0</double>
   </void>
   <void property="vx">
-   <double>-0.13499273186730645</double>
+   <double>0.05849525205356291</double>
   </void>
   <void property="vy">
-   <double>0.06940434796838527</double>
+   <double>-0.049407509927322533</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3521,10 +3476,10 @@ set %right_temperature temperature(1);</string>
    <double>331.0</double>
   </void>
   <void property="vx">
-   <double>0.15154493000135602</double>
+   <double>-0.11852278834273663</double>
   </void>
   <void property="vy">
-   <double>0.008610189591367704</double>
+   <double>0.018626193939856088</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3541,10 +3496,10 @@ set %right_temperature temperature(1);</string>
    <double>313.0</double>
   </void>
   <void property="vx">
-   <double>0.10146652847089457</double>
+   <double>-0.10064447468871045</double>
   </void>
   <void property="vy">
-   <double>-0.11289173917510675</double>
+   <double>0.08950075089020787</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3561,10 +3516,10 @@ set %right_temperature temperature(1);</string>
    <double>402.0</double>
   </void>
   <void property="vx">
-   <double>0.07918724649094455</double>
+   <double>0.1785968931886685</double>
   </void>
   <void property="vy">
-   <double>-0.1294966453893598</double>
+   <double>0.08380233214785973</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3581,10 +3536,10 @@ set %right_temperature temperature(1);</string>
    <double>431.0</double>
   </void>
   <void property="vx">
-   <double>-0.0975343919321666</double>
+   <double>0.17795336923107938</double>
   </void>
   <void property="vy">
-   <double>-0.09842277941166498</double>
+   <double>-0.06546166677830335</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3601,10 +3556,10 @@ set %right_temperature temperature(1);</string>
    <double>483.0</double>
   </void>
   <void property="vx">
-   <double>-0.1276465541122913</double>
+   <double>0.12022426957609145</double>
   </void>
   <void property="vy">
-   <double>-0.06947199701003891</double>
+   <double>0.05954233446691546</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3621,10 +3576,10 @@ set %right_temperature temperature(1);</string>
    <double>351.0</double>
   </void>
   <void property="vx">
-   <double>7.933436162957311E-5</double>
+   <double>-0.02728720637920535</double>
   </void>
   <void property="vy">
-   <double>-0.18590318730897445</double>
+   <double>-0.08796391592103045</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3641,10 +3596,10 @@ set %right_temperature temperature(1);</string>
    <double>209.0</double>
   </void>
   <void property="vx">
-   <double>-0.09086333564395822</double>
+   <double>-0.014919440720396172</double>
   </void>
   <void property="vy">
-   <double>-0.05713016049257354</double>
+   <double>-0.08818519160657982</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3661,10 +3616,10 @@ set %right_temperature temperature(1);</string>
    <double>522.0</double>
   </void>
   <void property="vx">
-   <double>-0.13172792443893286</double>
+   <double>-0.06485726439711953</double>
   </void>
   <void property="vy">
-   <double>-0.0429855212799093</double>
+   <double>0.009105204335062253</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3681,10 +3636,10 @@ set %right_temperature temperature(1);</string>
    <double>242.0</double>
   </void>
   <void property="vx">
-   <double>0.0979907668837565</double>
+   <double>0.0657393052400524</double>
   </void>
   <void property="vy">
-   <double>0.07588023896250969</double>
+   <double>0.010817225068541525</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3701,10 +3656,10 @@ set %right_temperature temperature(1);</string>
    <double>286.0</double>
   </void>
   <void property="vx">
-   <double>-0.12823414973332062</double>
+   <double>0.1048390326658112</double>
   </void>
   <void property="vy">
-   <double>0.052497656698818965</double>
+   <double>0.041724705409220596</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3718,10 +3673,10 @@ set %right_temperature temperature(1);</string>
    <double>84.0</double>
   </void>
   <void property="vx">
-   <double>0.04368646818433736</double>
+   <double>0.011521890946239986</double>
   </void>
   <void property="vy">
-   <double>0.0033901853609435294</double>
+   <double>-0.034656757609629864</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3735,10 +3690,10 @@ set %right_temperature temperature(1);</string>
    <double>150.0</double>
   </void>
   <void property="vx">
-   <double>-0.04319257927476662</double>
+   <double>0.0048013462231312875</double>
   </void>
   <void property="vy">
-   <double>0.007375768081744222</double>
+   <double>-0.010053510534050224</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3752,10 +3707,10 @@ set %right_temperature temperature(1);</string>
    <double>163.0</double>
   </void>
   <void property="vx">
-   <double>0.010424195737645714</double>
+   <double>-0.0021956753491680085</double>
   </void>
   <void property="vy">
-   <double>0.042559805009256386</double>
+   <double>-0.010019019315440811</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3769,10 +3724,10 @@ set %right_temperature temperature(1);</string>
    <double>218.0</double>
   </void>
   <void property="vx">
-   <double>0.006111524620012766</double>
+   <double>-0.022278801537405628</double>
   </void>
   <void property="vy">
-   <double>0.04338951631467737</double>
+   <double>-0.04748512314122696</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3786,10 +3741,10 @@ set %right_temperature temperature(1);</string>
    <double>230.0</double>
   </void>
   <void property="vx">
-   <double>0.008771467634481805</double>
+   <double>0.012778434728726957</double>
   </void>
   <void property="vy">
-   <double>0.042930900465048646</double>
+   <double>0.013388776554172234</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3801,6 +3756,12 @@ set %right_temperature temperature(1);</string>
   </void>
   <void property="ry">
    <double>243.0</double>
+  </void>
+  <void property="vx">
+   <double>0.0071771452133076764</double>
+  </void>
+  <void property="vy">
+   <double>0.0011508759721410142</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3814,10 +3775,10 @@ set %right_temperature temperature(1);</string>
    <double>311.0</double>
   </void>
   <void property="vx">
-   <double>0.04367911285790857</double>
+   <double>-2.960260269818917E-4</double>
   </void>
   <void property="vy">
-   <double>0.0034836703559266843</double>
+   <double>0.0010460638333688345</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3831,10 +3792,10 @@ set %right_temperature temperature(1);</string>
    <double>369.0</double>
   </void>
   <void property="vx">
-   <double>0.04224183283220526</double>
+   <double>0.031070127392416803</double>
   </void>
   <void property="vy">
-   <double>-0.011645961453598478</double>
+   <double>0.02842948765953083</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3848,10 +3809,10 @@ set %right_temperature temperature(1);</string>
    <double>429.0</double>
   </void>
   <void property="vx">
-   <double>0.04369717627608732</double>
+   <double>-0.011452434636941783</double>
   </void>
   <void property="vy">
-   <double>0.0032492529447901873</double>
+   <double>4.1402111415559E-4</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3865,10 +3826,10 @@ set %right_temperature temperature(1);</string>
    <double>491.0</double>
   </void>
   <void property="vx">
-   <double>-0.043670402800835686</double>
+   <double>-0.04634911766088574</double>
   </void>
   <void property="vy">
-   <double>0.0035912084895531222</double>
+   <double>-0.019073673198475243</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3882,10 +3843,10 @@ set %right_temperature temperature(1);</string>
    <double>522.0</double>
   </void>
   <void property="vx">
-   <double>0.04381530167236846</double>
+   <double>0.010733878835141823</double>
   </void>
   <void property="vy">
-   <double>-4.6925319606997773E-4</double>
+   <double>-0.019915424333145446</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3899,10 +3860,10 @@ set %right_temperature temperature(1);</string>
    <double>322.0</double>
   </void>
   <void property="vx">
-   <double>-0.03960140683812608</double>
+   <double>-0.02328531007791869</double>
   </void>
   <void property="vy">
-   <double>-0.018754451088845464</double>
+   <double>-0.024642138830608666</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3916,10 +3877,10 @@ set %right_temperature temperature(1);</string>
    <double>375.0</double>
   </void>
   <void property="vx">
-   <double>0.04332753553490478</double>
+   <double>0.019625994441721056</double>
   </void>
   <void property="vy">
-   <double>0.006536476395906229</double>
+   <double>0.039097357020964334</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.Atom">
@@ -3933,10 +3894,10 @@ set %right_temperature temperature(1);</string>
    <double>443.0</double>
   </void>
   <void property="vx">
-   <double>0.0436344126079121</double>
+   <double>-0.0024731234615167704</double>
   </void>
   <void property="vy">
-   <double>0.004004858994416372</double>
+   <double>0.034660286514452465</double>
   </void>
  </object>
  <object class="org.concord.mw2d.models.MolecularModel$State">
