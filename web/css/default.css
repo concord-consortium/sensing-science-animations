@@ -40,7 +40,7 @@ body {
 
 #page-container {
   height: auto;
-  margin: 0 auto;
+  margin: 20px auto 0;
   min-height: 43.75rem;
   position: relative;
   width: 78.125rem;
@@ -136,8 +136,7 @@ body {
 }
 
 #left {
-  background: url(../img/controls/left-arrow-enabled.jpg) left center
-    no-repeat;
+  background: url(../img/controls/left-arrow-enabled.jpg) left center no-repeat;
   display: block;
   height: auto;
   left: 1%;
@@ -151,13 +150,11 @@ body {
 }
 
 #left.disabled {
-  background: url(../img/controls/left-arrow-disabled.jpg) left center
-    no-repeat;
+  background: url(../img/controls/left-arrow-disabled.jpg) left center no-repeat;
 }
 
 #right {
-  background: url(../img/controls/right-arrow-enabled.jpg) right center
-    no-repeat;
+  background: url(../img/controls/right-arrow-enabled.jpg) right center no-repeat;
   display: block;
   height: auto;
   min-height: 4.25rem;
@@ -258,8 +255,7 @@ body {
   }
 }
 
-@media only screen and (device-width: 768px) and (orientation:
-  landscape) {
+@media only screen and (device-width: 768px) and (orientation: landscape) {
   /*iPad landscape orientation styles */
   #page-container {
     min-height: 40.84rem;
