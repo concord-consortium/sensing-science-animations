@@ -188,6 +188,7 @@ body {
 
 #record-controls {
   display: block;
+  display: none; /* hide for now */
   height: auto;
   min-height: 4.25rem;
   overflow: hidden;
