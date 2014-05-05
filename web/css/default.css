@@ -115,6 +115,24 @@ body {
   right: 50px;
 }
 
+.speedometer-bump {
+  bottom: -3px;
+  height: 37px;
+  left: 18px;
+  position: absolute;
+  width: 37px;
+}
+
+#red-speedometer-bump {
+  background: url(../img/speedometer/red-bump.png) center center no-repeat;
+  background-size: 60%;
+}
+
+#blue-speedometer-bump {
+  background: url(../img/speedometer/blue-bump.png) center center no-repeat;
+  background-size: 60%;
+}
+
 #controls {
   background: #f7f2ec;
   color: #506c94;
