@@ -9,7 +9,7 @@ class SSScreen {
   
   VideoElement video;
   HtmlElement runButton;
-  HtmlElement keShadingOnButton;
+  HtmlElement runKeButton;
   HtmlElement appletWindow;
   HtmlElement leftArrow;
   HtmlElement rightArrow;
@@ -25,7 +25,7 @@ class SSScreen {
   SSScreen(String videoName) {
   
     runButton = querySelector("#run_button");
-    keShadingOnButton=querySelector("#keshading_on_button");
+    runKeButton=querySelector("#run_ke_button");
     appletWindow = querySelector("#applet_window");
 
     leftArrow = querySelector("#red-speedometer-arrow");
@@ -84,8 +84,7 @@ class SSScreen {
   void _showApplet() {
     video.style.visibility = "hidden";
     appletWindow.style.visibility = "visible";
-    runButton.click();
-    keShadingOnButton.click();
+    runKeButton.click();
     window.animationFrame.then(_loop);
   }
   
