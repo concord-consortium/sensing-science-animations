@@ -26,7 +26,7 @@
   <div id="page-container">
   <div id="stage">
     <div id="video">
-      <video id="video-4" autoplay>
+      <video id="video-player" autoplay>
         <source src="video/activity/15.mp4" type="video/mp4"></source>
         <source src="video/activity/15.webm" type="video/webm"></source>
       </video>
@@ -59,7 +59,7 @@
     </div><!-- end #stage -->
       <div id="controls">
     	<div id="text">
-    	  <p>What do you think is happening?</p>
+    	  <p>The room separator is in place. Now the dance teams are ready to try their performances again. Explain why this idea will work, or it will not work. What do you think will happen as the dancers bump into the separator?</p>
     	</div>
     	<a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
     	<div id="record-controls">
@@ -74,6 +74,14 @@
     <audio id="audio1" src="audio/15a.mp3" preload="auto" />
   <script type="application/dart" src="screen4.dart"></script>
   <script src="packages/browser/dart.js"></script>
+  <script>
+  var instructions_counter = 0;
+  var instructions = [
+                          'The room separator is in place. Now the dance teams are ready to try their performances again. Explain why this idea will work, or it will not work. What do you think will happen as the dancers bump into the separator?',
+                          'So did the room separator work? What might we do next to make it work better?',
+                          'It was a good idea. The separator kept the Red Hots and the Cool Blues separated so they could each dance their routines, one fast and the other slow. But then there were two problems. First, the dance teams bumped into the separator. Then, the separator bumped into the dancers. After a while, everybody moved at the same speed. The people of the Land of Bump needed a better solution to save the Annual Bump Dance Festival. Explain what you think they should do so both teams can share the dance floor without changing each other\'s routines.'
+                          ];   
+  </script>
   <script src="js/interface.js"></script>
 </body>
 </html>

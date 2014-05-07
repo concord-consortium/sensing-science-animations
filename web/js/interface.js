@@ -1,4 +1,5 @@
 var audio_icon_flasher;
+var speedometer_flasher;
 
 window.onload = function() {
   // initiate audio icon flashing
@@ -7,11 +8,29 @@ window.onload = function() {
   // set up event listener for when audio clip ends
   var audio_player = document.getElementById("audio1");
   audio_player.addEventListener('ended', loadNextAudioClip);
-  
+  // set up event listener for when audio clip plays
+  audio_player.addEventListener('play', loadNextInstructionSet);
+
   // disable next page link
   disableNextLink();
-  
+
+  // begin speedometer flashing animation -- DISABLED FOR NOW
+  //if (document.getElementById('red-speedometer')) {
+    // set up event listener for when video clip ends
+    //var video_player = document.getElementById("video-player");
+    //video_player.addEventListener('ended', speedometerFlasher);
+  //}
+
 };
+
+// controls changing the instructional text to match spoken audio when necessary
+function loadNextInstructionSet() {
+  var text = document.getElementById('text');
+  if (!(typeof instructions_counter === 'undefined')) {
+    text.innerHTML = '<p>' + instructions[instructions_counter] + '</p>';
+    instructions_counter++;
+  }
+}
 
 // controls animation of audio icon/link
 function audioIconFlasher(action) {
@@ -27,6 +46,26 @@ function audioIconFlasher(action) {
 	  audio_icon.style.opacity = 1;
 	}
 	audio_icon_flasher = setTimeout("audioIconFlasher('go')", 400);
+  }
+}
+
+// controls animation of speedometer flashing
+function speedometerFlasher(action) {
+  clearTimeout(speedometer_flasher);
+  var red_speed = document.getElementById('red-speedometer');
+  var blue_speed = document.getElementById('blue-speedometer');
+  if (action == 'stop') {
+    red_speed.style.opacity = 1;
+    blue_speed.style.opacity = 1;
+  } else {
+    if (red_speed.style.opacity == 1 || red_speed.style.opacity == '') {
+      red_speed.style.opacity = .8;
+      blue_speed.style.opacity = .8;
+    } else {
+      red_speed.style.opacity = 1;
+      blue_speed.style.opacity = 1;
+    }
+    speedometer_flasher = setTimeout("speedometerFlasher('go')", 600);
   }
 }
 
@@ -54,18 +93,18 @@ function loadNextAudioClip() {
 
   // load next clip if current clip isn't last
   if (audio_letter == 'a') {
-	next_file = audio_number + 'b.mp3';
-	audio_clip.src = 'audio/' + next_file;
-    // wait thirty seconds, then start flashing the audio icon
+    next_file = audio_number + 'b.mp3';
+    audio_clip.src = 'audio/' + next_file;
+    // wait ten seconds, then start flashing the audio icon
     audio_icon_flasher = setTimeout("audioIconFlasher('go')", 10000);
   } else if (audio_letter == 'b') {
-	next_file = audio_number + 'c.mp3';
-	audio_clip.src = 'audio/' + next_file;
-    // wait thirty seconds, then start flashing the audio icon
+    next_file = audio_number + 'c.mp3';
+    audio_clip.src = 'audio/' + next_file;
+    // wait ten seconds, then start flashing the audio icon
     audio_icon_flasher = setTimeout("audioIconFlasher('go')", 10000);
   } else {
-	// enable next page link
-	enableNextLink();
+    // enable next page link
+    enableNextLink();
   }
 }
 

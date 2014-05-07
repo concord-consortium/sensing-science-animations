@@ -22,7 +22,7 @@
   <div id="page-container">
     <div id="stage">
       <div id="video">
-        <video id="video-1" autoplay>
+        <video id="video-player" autoplay>
           <source src="video/activity/7.mp4" type="video/mp4"></source>
           <source src="video/activity/7.webm" type="video/webm"></source>
         </video>
@@ -57,7 +57,7 @@
     <!-- end #stage -->
     <div id="controls">
       <div id="text">
-        <p>What do you think is happening?</p>
+        <p>It's time for the red hots to go on the dance floor and practice their routine. What do you think is happening?</p>
       </div>
       <a href="#" id="audio" title="Play audio"
         onclick="document.getElementById('audio1').play(); return false;">play
@@ -79,6 +79,16 @@
   <audio id="audio1" src="audio/7a.mp3" preload="auto" />
   <script type="application/dart" src="screen1.dart"></script>
   <script src="packages/browser/dart.js"></script>
+  <script>
+  var instructions_counter = 0;
+  var instructions = [
+                          'It\'s time for the red hots to go on the dance floor and practice their routine. What do you think is happening?',
+                          'Follow one dancer with your eyes and tell us what happens to that one dancer.',
+                          'The red hots have a lot of energy and move very fast. Whenever they perform, the dance floor is hot.'
+                          ];
+  </script>
   <script src="js/interface.js"></script>
+  <script>
+  </script>
 </body>
 </html>

@@ -26,7 +26,7 @@
   <div id="page-container">
     <div id="stage">
       <div id="video">
-        <video id="video-3" autoplay>
+        <video id="video-player" autoplay>
           <source src="video/activity/11.mp4" type="video/mp4"></source>
           <source src="video/activity/11.webm" type="video/webm"></source>
         </video>
@@ -59,7 +59,7 @@
     </div><!-- end #stage -->
     <div id="controls">
       <div id="text">
-        <p>What do you think is happening?</p>
+        <p>In rehearsal the Red Hots and Cool Blues practices their dances separately. Now they\'ll be dancing at the same time. It should be exciting to see.</p>
       </div>
       <a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
       <div id="record-controls">
@@ -74,6 +74,14 @@
   <audio id="audio1" src="audio/11a.mp3" preload="auto" />
   <script type="application/dart" src="screen3.dart"></script>
   <script src="packages/browser/dart.js"></script>
-  <script src="js/interface.js"></script>
+  <script>
+  var instructions_counter = 0;
+  var instructions = [
+                          'In rehearsal the Red Hots and Cool Blues practices their dances separately. Now they\'ll be dancing at the same time. It should be exciting to see.',
+                          'Why do you think the dancers changed so they all dance at the same speed?',
+                          'The dance floor is so crowded! When the dancers bump into each other the Red Hots slow down and the Cool Blues speed up. Before you know it they\'re all dancing at the same speed&#8212;not too fast, not too slow.'
+                          ];                         
+  </script>
+  <script src="js/interface.js?v1"></script>
 </body>
 </html>

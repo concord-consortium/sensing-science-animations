@@ -22,7 +22,7 @@
   <div id="page-container">
   <div id="stage">
     <div id="video">
-      <video id="video-2" autoplay>
+      <video id="video-player" autoplay>
         <source src="video/activity/8.mp4" type="video/mp4"></source>
         <source src="video/activity/8.webm" type="video/webm"></source>
       </video>
@@ -55,7 +55,7 @@
         </div><!-- end #stage -->
         <div id="controls">
           <div id="text">
-            <p>What do you think is happening?</p>
+            <p>Now it's time for the cool blues to get on the dance floor and practice their routine. What do you think is happening?</p>
           </div>
           <a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
           <div id="record-controls">
@@ -70,6 +70,14 @@
       <audio id="audio1" src="audio/8a.mp3" preload="auto" />
   <script type="application/dart" src="screen2.dart"></script>
   <script src="packages/browser/dart.js"></script>
+  <script>
+  var instructions_counter = 0;
+  var instructions = [
+                          'Now it\'s time for the cool blues to get on the dance floor and practice their routine. What do you think is happening?',
+                          'Follow one dancer with your eyes and tell us what happens to that one dancer.',
+                          'The cool blues have less energy than the red hots and they move more slowly. Whenever they perform, the dance floor is not as hot.'
+                          ];
+  </script>  
   <script src="js/interface.js"></script>
 </body>
 </html>

@@ -26,7 +26,7 @@
   <div id="page-container">
   <div id="stage">
     <div id="video">
-      <video id="video-5" autoplay>
+      <video id="video-player" autoplay>
         <source src="video/activity/18.mp4" type="video/mp4"></source>
         <source src="video/activity/18.webm" type="video/webm"></source>
       </video>
@@ -59,7 +59,7 @@
     </div><!-- /#stage -->
     <div id="controls">
   	<div id="text">
-  	  <p>What do you think is happening?</p>
+  	  <p>Explain what you think will happen when the Red Hots and Cool Blues start to dance.</p>
   	</div>
   	<a href="#" id="audio" title="Play audio" onclick="document.getElementById('audio1').play(); return false;">play audio</a>
   	<div id="record-controls">
@@ -74,6 +74,20 @@
   <audio id="audio1" src="audio/18a.mp3" preload="auto" />
   <script type="application/dart" src="screen5.dart"></script>
   <script src="packages/browser/dart.js"></script>
+  <script>
+  var instructions_counter = 0;
+  var instructions = [
+                          'Explain what you think will happen when the Red Hots and Cool Blues start to dance.',
+                          'Explain how two separators will work better than one.',
+                          'Success! The Red Hots bumped into their own separator, but that separator did not bump the Cool Blues. The Cool Blues bumped the other separator, but that separator did not bump the Red Hots. They could each perform their routine at the festival exactly how they had practiced it.'
+                          ];
+
+                          
+
+                          
+
+                          
+  </script>
   <script src="js/interface.js"></script>
 </body>
 </html>
