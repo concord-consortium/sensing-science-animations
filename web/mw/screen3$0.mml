@@ -370,7 +370,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1399468435931</long>
+     <long>1399468895274</long>
     </object>
    </void>
    <void method="put">
@@ -379,7 +379,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>77517</long>
+    <long>77547</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -433,7 +433,7 @@ set %right_temperature temperature(1);</string>
     <int>-242119</int>
    </void>
    <void index="1">
-    <int>-13395457</int>
+    <int>-11695113</int>
    </void>
    <void index="2">
     <int>-10040320</int>
@@ -458,6 +458,707 @@ set %right_temperature temperature(1);</string>
      <int>255</int>
     </object>
    </void>
+  </void>
+  <void property="images">
+   <array class="org.concord.mw2d.models.ImageComponent$Delegate" length="28">
+    <void index="0">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>80</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="x">
+       <double>454.0</double>
+      </void>
+      <void property="y">
+       <double>305.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="1">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>71</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>1</byte>
+      </void>
+      <void property="x">
+       <double>196.0</double>
+      </void>
+      <void property="y">
+       <double>516.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="2">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>60</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>2</byte>
+      </void>
+      <void property="x">
+       <double>207.0</double>
+      </void>
+      <void property="y">
+       <double>71.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="3">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>61</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>3</byte>
+      </void>
+      <void property="x">
+       <double>108.0</double>
+      </void>
+      <void property="y">
+       <double>129.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="4">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>62</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>4</byte>
+      </void>
+      <void property="x">
+       <double>177.0</double>
+      </void>
+      <void property="y">
+       <double>142.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="5">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>70</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>5</byte>
+      </void>
+      <void property="x">
+       <double>203.0</double>
+      </void>
+      <void property="y">
+       <double>203.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="6">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>63</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>6</byte>
+      </void>
+      <void property="x">
+       <double>53.0</double>
+      </void>
+      <void property="y">
+       <double>221.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="7">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>72</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>7</byte>
+      </void>
+      <void property="x">
+       <double>122.0</double>
+      </void>
+      <void property="y">
+       <double>236.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="8">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>73</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>8</byte>
+      </void>
+      <void property="x">
+       <double>176.0</double>
+      </void>
+      <void property="y">
+       <double>280.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="9">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>65</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>9</byte>
+      </void>
+      <void property="x">
+       <double>30.0</double>
+      </void>
+      <void property="y">
+       <double>307.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="10">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>64</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>10</byte>
+      </void>
+      <void property="x">
+       <double>107.0</double>
+      </void>
+      <void property="y">
+       <double>325.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="11">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>69</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>11</byte>
+      </void>
+      <void property="x">
+       <double>199.0</double>
+      </void>
+      <void property="y">
+       <double>345.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="12">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>66</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>12</byte>
+      </void>
+      <void property="x">
+       <double>100.0</double>
+      </void>
+      <void property="y">
+       <double>396.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="13">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>67</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>13</byte>
+      </void>
+      <void property="x">
+       <double>174.0</double>
+      </void>
+      <void property="y">
+       <double>425.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="14">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>red-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>68</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>14</byte>
+      </void>
+      <void property="x">
+       <double>111.0</double>
+      </void>
+      <void property="y">
+       <double>477.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="15">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>74</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>15</byte>
+      </void>
+      <void property="x">
+       <double>435.0</double>
+      </void>
+      <void property="y">
+       <double>78.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="16">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>76</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>16</byte>
+      </void>
+      <void property="x">
+       <double>394.0</double>
+      </void>
+      <void property="y">
+       <double>157.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="17">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>75</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>17</byte>
+      </void>
+      <void property="x">
+       <double>498.0</double>
+      </void>
+      <void property="y">
+       <double>144.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="18">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>84</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>18</byte>
+      </void>
+      <void property="x">
+       <double>399.0</double>
+      </void>
+      <void property="y">
+       <double>516.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="19">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>78</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>19</byte>
+      </void>
+      <void property="x">
+       <double>404.0</double>
+      </void>
+      <void property="y">
+       <double>224.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="20">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>77</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>20</byte>
+      </void>
+      <void property="x">
+       <double>471.0</double>
+      </void>
+      <void property="y">
+       <double>212.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="21">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>79</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>21</byte>
+      </void>
+      <void property="x">
+       <double>550.0</double>
+      </void>
+      <void property="y">
+       <double>237.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="22">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>86</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>22</byte>
+      </void>
+      <void property="x">
+       <double>399.0</double>
+      </void>
+      <void property="y">
+       <double>369.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="23">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>85</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>23</byte>
+      </void>
+      <void property="x">
+       <double>556.0</double>
+      </void>
+      <void property="y">
+       <double>316.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="24">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>81</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>24</byte>
+      </void>
+      <void property="x">
+       <double>486.0</double>
+      </void>
+      <void property="y">
+       <double>363.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="25">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>87</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>25</byte>
+      </void>
+      <void property="x">
+       <double>417.0</double>
+      </void>
+      <void property="y">
+       <double>437.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="26">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>82</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>26</byte>
+      </void>
+      <void property="x">
+       <double>539.0</double>
+      </void>
+      <void property="y">
+       <double>423.0</double>
+      </void>
+     </object>
+    </void>
+    <void index="27">
+     <object class="org.concord.mw2d.models.ImageComponent$Delegate">
+      <void property="URI">
+       <string>blue-bump.png</string>
+      </void>
+      <void property="hostIndex">
+       <int>83</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="layerPosition">
+       <byte>27</byte>
+      </void>
+      <void property="x">
+       <double>473.0</double>
+      </void>
+      <void property="y">
+       <double>485.0</double>
+      </void>
+     </object>
+    </void>
+   </array>
   </void>
   <void property="momentumFlavor">
    <void property="color">

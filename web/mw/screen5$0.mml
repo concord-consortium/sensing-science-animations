@@ -370,7 +370,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1399468469996</long>
+     <long>1399469045031</long>
     </object>
    </void>
    <void method="put">
@@ -379,7 +379,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>130403</long>
+    <long>130433</long>
    </void>
    <void method="put">
     <string>codebase</string>
