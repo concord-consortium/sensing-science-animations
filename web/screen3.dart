@@ -2,6 +2,6 @@ import 'screen.dart';
 
 void main() {
   
-  new SSScreen("#video-3");
+  new SSScreen("#video-player");
 
 }
