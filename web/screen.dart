@@ -84,7 +84,7 @@ class SSScreen {
   void _showApplet() {
     video.style.visibility = "hidden";
     appletWindow.style.visibility = "visible";
-    runKeButton.click();
+    runButton.click();
     window.animationFrame.then(_loop);
   }
   

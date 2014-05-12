@@ -370,7 +370,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1399679424253</long>
+     <long>1399906301294</long>
     </object>
    </void>
    <void method="put">
@@ -379,7 +379,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>95847</long>
+    <long>77550</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -396,7 +396,20 @@ set %left_temperature temperature(0);
 set %right_temperature temperature(1);
 set keshading_hot_color 0xfc4e39;
 set keshading_cold_color 0x4d8bf7;
-set keshading_type_average 1;</string>
+// set keshading_type_average 1;
+
+define %running 1;
+beginmouse:pressed;
+  if(%running == 1);
+     set %running 0;
+     stop;
+  else;
+     set %running 1;
+     run;
+  endif;
+endmouse:pressed;
+
+</string>
   </void>
   <void property="tasks">
    <void method="add">
