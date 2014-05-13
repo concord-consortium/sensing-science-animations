@@ -2,18 +2,19 @@ var audio_icon_flasher;
 var speedometer_flasher;
 
 window.onload = function() {
-  // initiate audio icon flashing
-  audioIconFlasher('go');
+  if (document.getElementById('audio')) {
+    // initiate audio icon flashing
+    audioIconFlasher('go');
 
-  // set up event listener for when audio clip ends
-  var audio_player = document.getElementById("audio1");
-  audio_player.addEventListener('ended', loadNextAudioClip);
-  // set up event listener for when audio clip plays
-  audio_player.addEventListener('play', loadNextInstructionSet);
+    // set up event listener for when audio clip ends
+    var audio_player = document.getElementById("audio1");
+    audio_player.addEventListener('ended', loadNextAudioClip);
+    // set up event listener for when audio clip plays
+    audio_player.addEventListener('play', loadNextInstructionSet);
 
-  // disable next page link
-  disableNextLink();
-
+    // disable next page link
+    disableNextLink();
+  }
   // begin speedometer flashing animation -- DISABLED FOR NOW
   //if (document.getElementById('red-speedometer')) {
     // set up event listener for when video clip ends
