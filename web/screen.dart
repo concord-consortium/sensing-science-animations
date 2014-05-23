@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:collection';
 import 'dart:html';
 import 'dart:math';
@@ -8,6 +9,7 @@ const int MAX_POINTS = 500;
 class SSScreen {
   
   VideoElement video;
+  AudioElement audio;
   HtmlElement runButton;
   HtmlElement runKeButton;
   HtmlElement appletWindow;
@@ -18,12 +20,14 @@ class SSScreen {
   HtmlElement getLeftTemperatureButton;
   HtmlElement getRightTemperatureButton;
   
+  int delay = 10;
+  
   // keep the latest segment of results in a queue
   Queue<double> _qLeft = new Queue<double>();
   Queue<double> _qRight = new Queue<double>();
   
-  SSScreen(String videoName) {
-  
+  SSScreen(bool audioStart) {
+
     runButton = querySelector("#run_button");
     runKeButton=querySelector("#run_ke_button");
     appletWindow = querySelector("#applet_window");
@@ -39,9 +43,14 @@ class SSScreen {
     rightTemperatureText = querySelector("#right_temperature");
     getLeftTemperatureButton = querySelector("#get_left_temperature");
     getRightTemperatureButton = querySelector("#get_right_temperature");
+    video = querySelector("#video-player");
+    audio = querySelector("#audio1");
 
-    video = querySelector(videoName);
-    video.onEnded.listen((e) => _showApplet());
+    if(audioStart) {
+      audio.onEnded.listen((e) => _showAppletWithDelay());
+    } else {
+      video.onEnded.listen((e) => _showApplet());
+    }
 
   }
   
@@ -81,6 +90,12 @@ class SSScreen {
     return sum / q.length;
   }
 
+  void _showAppletWithDelay() {
+    new Future.delayed(new Duration(seconds : delay), () {
+      _showApplet();
+    });
+  }
+  
   void _showApplet() {
     video.style.visibility = "hidden";
     appletWindow.style.visibility = "visible";
