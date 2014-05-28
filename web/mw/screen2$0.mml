@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1399906829085</long>
+     <long>1401219327696</long>
     </object>
    </void>
    <void method="put">
@@ -375,7 +375,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>69599</long>
+    <long>69665</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -451,6 +451,41 @@ endmouse:pressed;
    <void index="3">
     <int>-256</int>
    </void>
+  </void>
+  <void property="ellipses">
+   <array class="org.concord.mw2d.models.EllipseComponent$Delegate" length="1">
+    <void index="0">
+     <object class="org.concord.mw2d.models.EllipseComponent$Delegate">
+      <void property="height">
+       <float>20.0</float>
+      </void>
+      <void property="hostIndex">
+       <int>63</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="lineStyle">
+       <int>1</int>
+      </void>
+      <void property="lineWeight">
+       <int>2</int>
+      </void>
+      <void property="width">
+       <float>20.0</float>
+      </void>
+      <void property="x">
+       <double>467.0</double>
+      </void>
+      <void property="y">
+       <double>208.0</double>
+      </void>
+     </object>
+    </void>
+   </array>
   </void>
   <void property="fillMode">
    <object class="org.concord.modeler.draw.FillMode$ImageFill">

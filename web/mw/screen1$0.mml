@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1399906780061</long>
+     <long>1401284559469</long>
     </object>
    </void>
    <void method="put">
@@ -375,7 +375,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>70791</long>
+    <long>71764</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -394,7 +394,7 @@
 set %left_temperature temperature(0);
 set keshading_hot_color 0xfc4e39;
 set keshading_cold_color 0x4d8bf7;
-// set keshading_type_average 1;
+//set keshading_type_average 1;
 
 define %running 1;
 
@@ -452,6 +452,41 @@ endmouse:pressed;
    <void index="3">
     <int>-256</int>
    </void>
+  </void>
+  <void property="ellipses">
+   <array class="org.concord.mw2d.models.EllipseComponent$Delegate" length="1">
+    <void index="0">
+     <object class="org.concord.mw2d.models.EllipseComponent$Delegate">
+      <void property="height">
+       <float>20.0</float>
+      </void>
+      <void property="hostIndex">
+       <int>73</int>
+      </void>
+      <void property="hostType">
+       <string>class org.concord.mw2d.models.Atom</string>
+      </void>
+      <void property="layer">
+       <int>1</int>
+      </void>
+      <void property="lineStyle">
+       <int>1</int>
+      </void>
+      <void property="lineWeight">
+       <int>2</int>
+      </void>
+      <void property="width">
+       <float>20.0</float>
+      </void>
+      <void property="x">
+       <double>172.0</double>
+      </void>
+      <void property="y">
+       <double>276.0</double>
+      </void>
+     </object>
+    </void>
+   </array>
   </void>
   <void property="fillMode">
    <object class="org.concord.modeler.draw.FillMode$ImageFill">
