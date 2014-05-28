@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.7.0_51" class="java.beans.XMLDecoder">
+<java version="1.8.0" class="java.beans.XMLDecoder">
  <object class="org.concord.mw2d.models.Element" id="Element0">
   <void property="epsilon">
    <double>0.009999999776482582</double>
@@ -53,21 +53,10 @@
    <double>30.0</double>
   </void>
  </object>
- <object class="org.concord.mw2d.models.Affinity">
+ <object class="org.concord.mw2d.models.Affinity" id="Affinity0">
   <void property="epsilon">
    <void method="put">
     <object class="org.concord.mw2d.models.Pair" id="Pair0">
-     <void property="element1">
-      <object idref="Element2"/>
-     </void>
-     <void property="element2">
-      <object idref="Element3"/>
-     </void>
-    </object>
-    <double>1.0</double>
-   </void>
-   <void method="put">
-    <object class="org.concord.mw2d.models.Pair" id="Pair1">
      <void property="element1">
       <object idref="Element0"/>
      </void>
@@ -78,12 +67,23 @@
     <double>0.009999999776482582</double>
    </void>
    <void method="put">
-    <object class="org.concord.mw2d.models.Pair" id="Pair2">
+    <object class="org.concord.mw2d.models.Pair" id="Pair1">
      <void property="element1">
-      <object idref="Element1"/>
+      <object idref="Element2"/>
      </void>
      <void property="element2">
       <object idref="Element3"/>
+     </void>
+    </object>
+    <double>1.0</double>
+   </void>
+   <void method="put">
+    <object class="org.concord.mw2d.models.Pair" id="Pair2">
+     <void property="element1">
+      <object idref="Element0"/>
+     </void>
+     <void property="element2">
+      <object idref="Element2"/>
      </void>
     </object>
     <double>0.5049999998882413</double>
@@ -91,10 +91,10 @@
    <void method="put">
     <object class="org.concord.mw2d.models.Pair" id="Pair3">
      <void property="element1">
-      <object idref="Element0"/>
+      <object idref="Element1"/>
      </void>
      <void property="element2">
-      <object idref="Element2"/>
+      <object idref="Element3"/>
      </void>
     </object>
     <double>0.5049999998882413</double>
@@ -102,10 +102,10 @@
    <void method="put">
     <object class="org.concord.mw2d.models.Pair" id="Pair4">
      <void property="element1">
-      <object idref="Element1"/>
+      <object idref="Element0"/>
      </void>
      <void property="element2">
-      <object idref="Element2"/>
+      <object idref="Element3"/>
      </void>
     </object>
     <double>0.5049999998882413</double>
@@ -113,10 +113,10 @@
    <void method="put">
     <object class="org.concord.mw2d.models.Pair" id="Pair5">
      <void property="element1">
-      <object idref="Element0"/>
+      <object idref="Element1"/>
      </void>
      <void property="element2">
-      <object idref="Element3"/>
+      <object idref="Element2"/>
      </void>
     </object>
     <double>0.5049999998882413</double>
@@ -260,27 +260,27 @@
   <void property="sigma">
    <void method="put">
     <object idref="Pair0"/>
-    <double>24.24871130596428</double>
-   </void>
-   <void method="put">
-    <object idref="Pair1"/>
     <double>9.899494936611665</double>
    </void>
    <void method="put">
-    <object idref="Pair2"/>
-    <double>19.79898987322333</double>
+    <object idref="Pair1"/>
+    <double>24.24871130596428</double>
    </void>
    <void method="put">
-    <object idref="Pair3"/>
+    <object idref="Pair2"/>
     <double>12.12435565298214</double>
    </void>
    <void method="put">
+    <object idref="Pair3"/>
+    <double>19.79898987322333</double>
+   </void>
+   <void method="put">
     <object idref="Pair4"/>
-    <double>17.146428199482248</double>
+    <double>14.0</double>
    </void>
    <void method="put">
     <object idref="Pair5"/>
-    <double>14.0</double>
+    <double>17.146428199482248</double>
    </void>
    <void method="put">
     <object idref="Pair6"/>
@@ -300,7 +300,7 @@
    </void>
   </void>
  </object>
- <object class="org.concord.mw2d.models.AtomicModel$State">
+ <object class="org.concord.mw2d.models.AtomicModel$State" id="AtomicModel$State0">
   <void property="RList">
    <float>1.85</float>
   </void>
@@ -364,26 +364,26 @@
   </void>
   <void property="properties">
    <void method="put">
+    <string>date</string>
+    <object class="java.util.Date">
+     <long>1399906842470</long>
+    </object>
+   </void>
+   <void method="put">
     <string>filename</string>
     <string>screen3$0.mml</string>
    </void>
    <void method="put">
-    <string>date</string>
-    <object class="java.util.Date">
-     <long>1399906301294</long>
-    </object>
-   </void>
-   <void method="put">
-    <string>url</string>
-    <string>C:\Users\qxie\git\sensing-science-animations\web\mw\screen3$0.mml</string>
-   </void>
-   <void method="put">
     <string>size</string>
-    <long>77550</long>
+    <long>77711</long>
    </void>
    <void method="put">
     <string>codebase</string>
     <string>C:\Users\qxie\git\sensing-science-animations\web\mw</string>
+   </void>
+   <void method="put">
+    <string>url</string>
+    <string>C:\Users\qxie\git\sensing-science-animations\web\mw\screen3$0.mml</string>
    </void>
   </void>
   <void property="quantumRule">
@@ -402,10 +402,10 @@ define %running 1;
 beginmouse:pressed;
   if(%running == 1);
      set %running 0;
-     stop;
+     //stop;
   else;
      set %running 1;
-     run;
+     //run;
   endif;
 endmouse:pressed;
 
@@ -437,7 +437,7 @@ set %right_temperature temperature(1);</string>
    <int>25</int>
   </void>
  </object>
- <object class="org.concord.mw2d.AtomisticView$State">
+ <object class="org.concord.mw2d.AtomisticView$State" id="AtomisticView$State0">
   <void property="colorCode">
    <string>None</string>
   </void>
