@@ -34,10 +34,14 @@ class SSScreen {
 
     leftArrow = querySelector("#red-speedometer-arrow");
     rightArrow = querySelector("#blue-speedometer-arrow");
-    leftArrow.style.transformOrigin = "50% 100% 0";
-    leftArrow.style.transform = "rotate(-90deg)";
-    rightArrow.style.transformOrigin = "50% 100% 0";
-    rightArrow.style.transform = "rotate(-90deg)";
+    if(leftArrow != null) {
+      leftArrow.style.transformOrigin = "50% 100% 0";
+      leftArrow.style.transform = "rotate(-90deg)";
+    }
+    if(rightArrow != null) {
+      rightArrow.style.transformOrigin = "50% 100% 0";
+      rightArrow.style.transform = "rotate(-90deg)";
+    }
 
     leftTemperatureText = querySelector("#left_temperature");
     rightTemperatureText = querySelector("#right_temperature");
@@ -99,7 +103,7 @@ class SSScreen {
   void _showApplet() {
     video.style.visibility = "hidden";
     appletWindow.style.visibility = "visible";
-    runButton.click();
+    runKeButton.click();
     window.animationFrame.then(_loop);
   }
   
