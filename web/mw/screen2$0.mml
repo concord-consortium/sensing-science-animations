@@ -366,7 +366,7 @@
    <void method="put">
     <string>date</string>
     <object class="java.util.Date">
-     <long>1401283550361</long>
+     <long>1401793522573</long>
     </object>
    </void>
    <void method="put">
@@ -375,7 +375,7 @@
    </void>
    <void method="put">
     <string>size</string>
-    <long>70575</long>
+    <long>70645</long>
    </void>
    <void method="put">
     <string>codebase</string>
@@ -1868,9 +1868,6 @@ endmouse:pressed;
   </void>
   <void property="ry">
    <double>218.0</double>
-  </void>
-  <void property="showRTraj">
-   <boolean>true</boolean>
   </void>
   <void property="vx">
    <double>-0.0057859826950019885</double>
